@@ -1,21 +1,25 @@
-let saveEl = document.getElementById("save-el");
-let countEl = document.getElementById("count-el")// pass in argument 
-let count = 0 
 
- function increment(){
-    count   += 1
-   countEl.innerText = count 
- }
- 
+let firstName = " Abdul "
+let lastName = " Wajid"
+
+let fullName =  firstName + lastName
 
 
-function save (){
-    let countStr = count + " - "
-    saveEl.textContent += countStr
-    count = 0 
-    countEl.innerText = count 
+console.log(fullName)
+
+
+// Exercise 2 
+
+let name = " Linda"
+let greeting = "Hi there"
+
+
+
+function greetingLinda(){
+    console.log(greeting + " ,"+ name)
 }
 
+greetingLinda()
 
 
  
